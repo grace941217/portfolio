@@ -40,12 +40,12 @@ const Home = () => {
               New York, New York
             </p>
             
-            <Link to={'/contact'} className='btn mb-[20px]'>
+            <Link to={'/projects'} className='btn mb-[20px]'>
               Projects
             </Link>
 
             <Link to={'/contact'} className='btn mb-[20px]'>
-              More about me
+              Contact me
             </Link>
           </motion.div>
           {/* image */}

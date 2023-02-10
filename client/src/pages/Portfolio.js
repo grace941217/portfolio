@@ -35,7 +35,7 @@ const Portfolio = () => {
             transition={transition1}
             className='flex flex-col lg:items-start'
           >
-            <h1 className='h1'>Portfolio</h1>
+            <h1 className='h1'>Projects</h1>
             <p className='mb-12 max-w-sm'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               <b> Exercitationem, veritatis.</b> Veritatis illum aut,

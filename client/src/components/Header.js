@@ -42,7 +42,7 @@ const Header = () => {
             About
           </Link>
           <Link
-            to={'/portfolio'}
+            to={'/projects'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             Porftolio
