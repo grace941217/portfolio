@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 // cursor context
 import { CursorContext } from '../context/CursorContext';
+import About from './About';
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -39,7 +40,9 @@ const Home = () => {
             <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>
               New York, New York
             </p>
-            
+            <div>
+              <About/>
+            </div>
             <Link to={'/projects'} className='btn mb-[20px]'>
               Projects
             </Link>
@@ -55,7 +58,7 @@ const Home = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className='relative lg:-right-40 overflow-hidden'
+              className='relative lg:-right-40'
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}
