@@ -33,7 +33,7 @@ const Home = () => {
             transition={transition1}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className='w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'
+            className='w-full pt-36 pb-14 lg:pt-100 lg:pb-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>
               Software Engineer <br /> & 
@@ -62,7 +62,7 @@ const Home = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className='relative lg:-right-40'
+              className='absolute lg:-right-40'
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}
