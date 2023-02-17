@@ -28,9 +28,9 @@ const About = () => {
         {/* text & img wrapper */}
         <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'>
           {/* image */}
-          <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
+          {/* <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
             <img src={WomanImg} alt='' />
-          </div>
+          </div> */}
           {/* text */}
           <motion.div
             initial={{ opacity: 0, y: '-80%' }}

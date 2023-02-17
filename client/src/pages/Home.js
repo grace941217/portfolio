@@ -10,6 +10,7 @@ import { transition1 } from '../transitions';
 // cursor context
 import { CursorContext } from '../context/CursorContext';
 import About from './About';
+import Portfolio from './Portfolio';
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -43,9 +44,12 @@ const Home = () => {
             <div>
               <About/>
             </div>
-            <Link to={'/projects'} className='btn mb-[20px]'>
+            <div>
+              <Portfolio/>
+            </div>
+            {/* <Link to={'/projects'} className='btn mb-[20px]'>
               Projects
-            </Link>
+            </Link> */}
 
             <Link to={'/contact'} className='btn mb-[20px]'>
               Contact me
