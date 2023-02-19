@@ -6,6 +6,13 @@ import {
   ImPinterest,
   ImInstagram,
   ImYoutube,
+  ImLinkedin,
+  ImLinkedin2,
+  ImGithub,
+  ImAttachment,
+  ImBlog,
+  ImBlogger,
+  ImBlogger2,
 } from 'react-icons/im';
 // import cursor context
 import { CursorContext } from '../context/CursorContext';
@@ -19,7 +26,27 @@ const Socials = () => {
       className='hidden xl:flex ml-24'
     >
       <ul className='flex gap-x-4'>
-        <li>
+      <li>
+        <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
+          <ImLinkedin />
+        </a>
+      </li>
+      <li>
+        <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
+          <ImGithub />
+        </a>
+      </li>
+      <li>
+        <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
+          <ImAttachment />
+        </a>
+      </li>
+      <li>
+        <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
+          <ImBlogger2 />
+        </a>
+      </li>
+        {/* <li>
           <a href='http://wwww.facebook.com' target='_blank'>
             <ImFacebook />
           </a>
@@ -43,7 +70,7 @@ const Socials = () => {
           <a href='http://www.youtube.com' target='_blank'>
             <ImYoutube />
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
