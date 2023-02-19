@@ -57,7 +57,7 @@ const Contact = () => {
                 placeholder='Your message'
               />
               <button className='btn mb-[30px] mx-auto lg:mx-0 self-start'>
-                Send it
+                Send
               </button>
             </form>
           </div>
