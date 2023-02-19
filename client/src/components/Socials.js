@@ -10,9 +10,8 @@ import {
   ImLinkedin2,
   ImGithub,
   ImAttachment,
-  ImBlog,
-  ImBlogger,
-  ImBlogger2,
+  ImPen,
+  ImProfile
 } from 'react-icons/im';
 // import cursor context
 import { CursorContext } from '../context/CursorContext';
@@ -32,18 +31,18 @@ const Socials = () => {
         </a>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
+        <a href='https://github.com/grace941217' target='_blank'>
           <ImGithub />
         </a>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
-          <ImAttachment />
+        <a href='https://medium.com/@grace941217' target='_blank'>
+          <ImPen />
         </a>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
-          <ImBlogger2 />
+        <a href='https://docs.google.com/document/d/1xEyZdZwRZ-c9NmGF33QgOrWHAIY4uXGJHvs4J0p3oqY/edit?usp=sharing' target='_blank'>
+          <ImProfile />
         </a>
       </li>
         {/* <li>
