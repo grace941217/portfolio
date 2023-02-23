@@ -41,13 +41,12 @@ const About = () => {
           >
             <h1 className='h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
+            I am an aspiring software developer who is determined to move forward day by day. Dedicated to learn with passion and face challenges for greater purpose. 
+              {/* <b> Exercitationem, veritatis.</b>  */}
+              Strong skills in creative problem solving, active listening and persistence. 
               <br />
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
+              Looking forward to this new journey for opportunities to work with inspiring and intelligent people for valuable outcomes.
             </p>
             <Link to={'/projects'} className='btn'>
               View my work
