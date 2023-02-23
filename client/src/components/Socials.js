@@ -22,7 +22,7 @@ const Socials = () => {
     <div
       onMouseEnter={mouseEnterHandler}
       onMouseLeave={mouseLeaveHandler}
-      className='hidden xl:flex ml-24'
+      className=' xl:flex mr-10 px-5'
     >
       <ul className='flex gap-x-4'>
       <li>
