@@ -11,6 +11,7 @@ import { transition1 } from '../transitions';
 import { CursorContext } from '../context/CursorContext';
 import About from './About';
 import Portfolio from './Portfolio';
+import Contact from './Contact'
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -50,10 +51,12 @@ const Home = () => {
             {/* <Link to={'/projects'} className='btn mb-[20px]'>
               Projects
             </Link> */}
-
-            <Link to={'/contact'} className='btn mb-[20px]'>
+            <div>
+              <Contact/>
+            </div>
+            {/* <Link to={'/contact'} className='btn mb-[20px]'>
               Contact me
-            </Link>
+            </Link> */}
           </motion.div>
           {/* image */}
           <div className='flex justify-end max-h-96 lg:max-h-max'>
