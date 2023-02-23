@@ -26,7 +26,7 @@ const Header = () => {
         </Link>
         {/* nav - initially hidden - show on desktop mode */}
         <nav
-          className='hidden xl:flex gap-x-12 font-semibold'
+          className='hidden gap-x-12 font-semibold'
           onMouseEnter={mouseEnterHandler}
           onMouseLeave={mouseLeaveHandler}
         >
