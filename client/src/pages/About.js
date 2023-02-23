@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import WomanImg from '../img/about/woman.png';
+import WomanImg from '../img/home/woman.png';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -48,9 +48,22 @@ const About = () => {
               <br />
               Looking forward to this new journey for opportunities to work with inspiring and intelligent people for valuable outcomes.
             </p>
-            <Link to={'/projects'} className='btn'>
+            {/* <Link to={'/projects'} className='btn'>
               View my work
-            </Link>
+            </Link> */}
+            
+          </motion.div>
+          {/* image */}
+          <motion.div
+            onMouseEnter={mouseEnterHandler}
+            onMouseLeave={mouseLeaveHandler}
+            initial={{ opacity: 0, y: '100%' }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: '100%' }}
+            transition={{ transition: transition1, duration: 1.5 }}
+            className='lg:flex-1'
+          >
+            <img src={WomanImg} alt='' />
           </motion.div>
         </div>
       </div>

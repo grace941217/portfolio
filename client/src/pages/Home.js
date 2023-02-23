@@ -59,7 +59,7 @@ const Home = () => {
             </Link> */}
           </motion.div>
           {/* image */}
-          <div className='flex justify-end max-h-96 lg:max-h-max'>
+          {/* <div className='flex justify-end max-h-96 lg:max-h-max'>
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -74,7 +74,7 @@ const Home = () => {
                 alt=''
               />
             </motion.div>
-          </div>
+          </div> */}
         </div>
       </div>
     </motion.section>
