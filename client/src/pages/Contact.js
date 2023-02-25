@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import WomanImg from '../img/contact/woman.png';
+import WomanImg from '../img/contact/plant.jpg';
 // import motion
 import { motion } from 'framer-motion';
 // import transition
@@ -27,7 +27,7 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={transition1}
-            className='hidden lg:flex bg-[#eef7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'
+            className='hidden lg:flex bg-[#dbd2f6] absolute bottom-0 left-0 right-0 top-72 -z-10'
           ></motion.div>
           {/* text & form */}
           <div
@@ -71,7 +71,7 @@ const Contact = () => {
             transition={{ transition: transition1, duration: 1.5 }}
             className='lg:flex-1'
           >
-            <img src={WomanImg} alt='' />
+            {/* <img src={WomanImg} alt='' /> */}
           </motion.div>
         </div>
       </div>
