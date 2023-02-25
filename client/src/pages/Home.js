@@ -34,7 +34,7 @@ const Home = () => {
             transition={transition1}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className='w-full pt-40 pb-14 lg:pt-100 lg:pb-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
+            className='w-full pt-40 pb-40 lg:pt-100 lg:pb-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>
               Software Engineer <br /> & 

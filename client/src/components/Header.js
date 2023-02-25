@@ -12,7 +12,7 @@ const Header = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
-    <header className=' w-full  px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
+    <header className=' w-full  px-[30px] lg:px-[60px] z-30 h-[100px] lg:h-[140px] flex items-center'>
       <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
         {/* logo */}
         <Link
@@ -22,7 +22,7 @@ const Header = () => {
           className='max-w-[200px]'
         >
           {/* <img src={Logo} alt='' /> */}
-          <button className='logo'>G | K</button>
+          <button className='logo'>GRACE KIM</button>
         </Link>
         {/* nav - initially hidden - show on desktop mode */}
         <nav
