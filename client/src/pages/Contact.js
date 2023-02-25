@@ -27,7 +27,7 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={transition1}
-            className='hidden lg:flex bg-[#dbd2f6] absolute bottom-0 left-0 right-0 top-72 -z-10'
+            className='hidden lg:flex bg-[#ebe7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'
           ></motion.div>
           {/* text & form */}
           <div
@@ -56,7 +56,7 @@ const Contact = () => {
                 type='text'
                 placeholder='Your message'
               />
-              <button className='btn mb-[30px] mx-auto lg:mx-0 self-start'>
+              <button className='sendBtn mb-[30px] mx-auto lg:mx-0 self-start'>
                 Send
               </button>
             </form>
