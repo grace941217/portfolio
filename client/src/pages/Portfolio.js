@@ -37,13 +37,13 @@ const Portfolio = () => {
           >
             <h1 className='h1'>Projects</h1>
             <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
+              reprehenderit sed dolorem dolore. */}
               <br />
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
+              {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia. */}
             </p>
             {/* <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>
               Hire me

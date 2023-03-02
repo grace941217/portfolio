@@ -41,12 +41,11 @@ const About = () => {
           >
             <h1 className='h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-            An aspiring software developer determined to move forward each day. Dedicated to learn with positivity and face challenges for greater purpose. 
-              Highly adaptive with strong skills in creative problem solving, active listening and persistence. 
+            I find enthusiasm in my new adventures. I am excited to encounter opportunities to grow as a developer and also as a person. I am a fast learner with strong skills in active listening, creativity and persistence. A background in biology as a nursing major and hospitality in the food industry.
               {/* <b> Exercitationem, veritatis.</b>  */}
               <br />
               <br />
-              Looking forward to the opportunities to work with inspiring people in creating innovative products.
+              I find values in positive collaborations that carries efficiency as well. Looking forward to the opportunities to work with inspiring people in creating innovative products.
             </p>
             {/* <Link to={'/projects'} className='btn'>
               View my work
