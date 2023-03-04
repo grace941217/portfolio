@@ -26,7 +26,10 @@ const About = () => {
         className='container mx-auto h-full relative'
       >
         {/* text & img wrapper */}
-        <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'>
+        {/* <div className='flex  
+        lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'> */}
+
+           <div className='flex flex-col lg:flex-row justify-center'>
           {/* image */}
           {/* <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
             <img src={WomanImg} alt='' />
@@ -41,7 +44,9 @@ const About = () => {
           >
             <h1 className='h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-            New adventures are always exciting. Looking forward to future opportunities that can help me grow as a developer and also as a person. 
+            New adventures are always exciting. 
+            <br></br>
+            I'm thrilled as I am making a career transition to grow as a developer and also as a person. 
             <br></br>
             I am a fast learner with strong skills in active listening, creativity and persistence.
             <br></br>
@@ -49,7 +54,7 @@ const About = () => {
               {/* <b> Exercitationem, veritatis.</b>  */}
               <br />
               <br />
-              I work through positive collaborations and value efficiency.  Looking forward to the opportunities to work with inspiring people in creating innovative products.
+              I work through positive collaborations and value efficiency.  I look forward to future opportunities to work with inspiring people in creating innovative products.
             </p>
             {/* <Link to={'/projects'} className='btn'>
               View my work

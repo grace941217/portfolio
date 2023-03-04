@@ -59,7 +59,7 @@ const Header = () => {
       {/* socials */}
       <Socials />
       {/* mobile nav */}
-      <MobileNav />
+      {/* <MobileNav /> */}
     </header>
   );
 };
