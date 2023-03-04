@@ -12,6 +12,7 @@ import { CursorContext } from '../context/CursorContext';
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact'
+import Skills from './Skills'
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -44,6 +45,9 @@ const Home = () => {
             </p>
             <div>
               <About/>
+            </div>
+            <div>
+              <Skills/>
             </div>
             <div>
               <Portfolio/>
