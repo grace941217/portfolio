@@ -62,7 +62,7 @@ const Contact = () => {
             <p className='mb-12 text-[18px]'>Please feel free to reach out to me!</p>
             {/* form */}
             <form className='flex flex-col gap-y-4'
-              ref = {refForm} onSubmit={sendEmail}>
+              ref={form} onSubmit={sendEmail}>
               <div className='flex gap-x-10'>
                 <input
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
