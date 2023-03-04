@@ -41,11 +41,15 @@ const About = () => {
           >
             <h1 className='h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-            I find enthusiasm in my new adventures. I am excited to encounter opportunities to grow as a developer and also as a person. I am a fast learner with strong skills in active listening, creativity and persistence. A background in biology as a nursing major and hospitality in the food industry.
+            New adventures are always exciting. Looking forward to future opportunities that can help me grow as a developer and also as a person. 
+            <br></br>
+            I am a fast learner with strong skills in active listening, creativity and persistence.
+            <br></br>
+            A background in biology as a nursing major and hospitality in the food industry.
               {/* <b> Exercitationem, veritatis.</b>  */}
               <br />
               <br />
-              I find values in positive collaborations that carries efficiency as well. Looking forward to the opportunities to work with inspiring people in creating innovative products.
+              I work through positive collaborations and value efficiency.  Looking forward to the opportunities to work with inspiring people in creating innovative products.
             </p>
             {/* <Link to={'/projects'} className='btn'>
               View my work
