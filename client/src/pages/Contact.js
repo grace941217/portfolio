@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 // import images
 import WomanImg from '../img/contact/plant.jpg';
 // import motion
@@ -44,19 +44,24 @@ const Contact = () => {
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                   type='text'
                   placeholder='Your name'
+                  required
                 />
                 <input
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                   type='text'
                   placeholder='Your email address'
+                  required
                 />
               </div>
               <input
                 className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                 type='text'
                 placeholder='Your message'
+                required
               />
-              <button className='sendBtn mb-[30px] mx-auto lg:mx-0 self-start'>
+              <button 
+                className='sendBtn mb-[30px] mx-auto lg:mx-0 self-start'
+                type='submit'>
                 Send
               </button>
             </form>

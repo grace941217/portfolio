@@ -10,7 +10,7 @@ import { transition1 } from '../transitions';
 // import cursor context
 import { CursorContext } from '../context/CursorContext';
 
-const About = () => {
+const Skills = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
     <motion.section
@@ -62,7 +62,7 @@ const About = () => {
             
           </motion.div>
           {/* image */}
-          <motion.div
+          {/* <motion.div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, y: '100%' }}
@@ -72,11 +72,11 @@ const About = () => {
             className='lg:flex-1'
           >
             <img src={WomanImg} alt='' />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </motion.section>
   );
 };
 
-export default About;
+export default Skills;
