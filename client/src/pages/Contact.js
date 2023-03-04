@@ -67,12 +67,14 @@ const Contact = () => {
                 <input
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                   type='text'
+                  name='name'
                   placeholder='Your name'
                   required
                 />
                 <input
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                   type='text'
+                  name='email'
                   placeholder='Your email address'
                   required
                 />
@@ -80,6 +82,7 @@ const Contact = () => {
               <input
                 className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                 type='text'
+                name='message'
                 placeholder='Your message'
                 required
               />
