@@ -15,7 +15,7 @@ const menuVariants = {
   show: {
     x: 0,
     transition: {
-      ease: [0.6, 0.01, -0.05, 0.9],
+      // ease: [0.6, 0.01, -0.05, 0.9],
     },
   },
 };
