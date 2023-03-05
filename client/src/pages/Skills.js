@@ -54,52 +54,87 @@ const Skills = () => {
             className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>Skills</h1>
-            <p className='grid grid-cols-3 lg:gap-2 sm:m-auto sm:gap-2 '>
-              <button 
-                className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
-                type='submit'>
-                <DiJavascript />
-              </button>
+            <p className='flex lg:gap-2 sm:m-auto sm:gap-2 pt-10'>
+              <div>
+                <button 
+                  className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
+                  type='submit'>
+                  <DiJavascript />
+                </button>
+                <p>JavaScript</p>
+              </div>
+              <div>
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <DiPython />
               </button>
+              <p>Python</p>
+              </div>
+              <div>
+                
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <DiRuby />
               </button>
+              <p>Ruby</p>
+                  </div>
+            <div>
+              
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <DiReact />
               </button>
+              <p>React.js</p>
+                  </div>
+              <div>
+
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <SiNextdotjs />
               </button>
+              <p>Next.js</p>
+                  </div>
+              <div>
+
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <SiRubyonrails />
               </button>
+              <p>Rails</p>
+                  </div>
+              <div>
+
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <DiCss3 />
               </button>
+              <p>CSS</p>
+                  </div>
+                <div>
+
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <DiHtml5 />
               </button>
+              <p>HTML</p>
+                  </div>
+              <div>
+
               <button 
                 className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'
                 type='submit'>
                 <SiTailwindcss />
               </button>
+              <p>TailwindCSS</p>
+                  </div>
+
             </p>
             {/* <Link to={'/projects'} className='btn'>
               View my work
