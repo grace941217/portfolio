@@ -21,4 +21,7 @@
   .sendBtn {
     @apply py-[13px] px-[30px] h-[50px] mt-[20px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-primary text-white;
   }
+  .logoBtn {
+    @apply py-[20px] px-[10px] h-[70px] mt-[20px] flex items-center justify-center text-base uppercase font-secondary font-semibold  text-black text-[80px];
+  }
 }

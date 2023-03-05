@@ -44,17 +44,22 @@ const About = () => {
           >
             <h1 className='h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-            New adventures are always exciting. 
+            Ready and excited to embark on a new journey!💡 
+            {/* New adventures are always exciting.  */}
             <br></br>
-            I'm thrilled as I am making a career transition to grow as a developer and also as a person. 
+            I'm thrilled as I am making a transition to grow as a developer and also as a person. 
+            <br></br>
             <br></br>
             I am a fast learner with strong skills in active listening, creativity and persistence.
-            <br></br>
-            A background in biology as a nursing major and hospitality in the food industry.
+            <br />
+            My background is in biology as a nursing major. And I gained hospitality experiences in the food industry while studying.
               {/* <b> Exercitationem, veritatis.</b>  */}
               <br />
               <br />
-              I work through positive collaborations and value efficiency.  I look forward to future opportunities to work with inspiring people in creating innovative products.
+              I like to work through positive collaborations and value efficiency.  Looking forward to future opportunities to work with inspiring people to create innovative products.
+              <br />
+              <br />
+              Let the journey begin!✨
             </p>
             {/* <Link to={'/projects'} className='btn'>
               View my work
