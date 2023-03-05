@@ -1,6 +1,6 @@
-import React, { useState, useContext, useEffect, useRef } from 'react';
+import React, { useContext, useRef } from 'react';
 // import images
-import WomanImg from '../img/contact/plant.jpg';
+// import WomanImg from '../img/contact/plant.jpg';
 // import motion
 import { motion } from 'framer-motion';
 // import transition
@@ -11,27 +11,27 @@ import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
-  const refForm = useRef()
+  const form = useRef()
+  // const templateParams = {
+  //   name: '',
+  //   email: '',
+  //   message: ''
+  // }
 
   const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
-      .sendForm(
-        'gmail',
-        "template_q9xilq3",
-        refForm.current,
-        '4Pxv3p2s5Sz86UmzJ'
+      .sendForm('service_zi8u8cx', 'template_q9xilq3', form.current, 'wgxmEJAU9UqfpLu54')
+      .then(
+        () => {
+          alert('Message sent successfully!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again.')
+        }
       )
-    .then(
-      () => {
-        alert('Message sent successfully!')
-        window.location.reload(false)
-      },
-      () => {
-        alert('Failed to send the message, please try again.')
-      }
-    )
   }
 
   return (
@@ -61,8 +61,10 @@ const Contact = () => {
             <h1 className='h1'>Contact me</h1>
             <p className='mb-12 text-[18px]'>Please feel free to reach out to me!</p>
             {/* form */}
-            <form className='flex flex-col gap-y-4'
-              ref={form} onSubmit={sendEmail}>
+            <form 
+              className='flex flex-col gap-y-4'
+              ref={form} 
+              onSubmit={sendEmail}>
               <div className='flex gap-x-10'>
                 <input
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
@@ -73,7 +75,7 @@ const Contact = () => {
                 />
                 <input
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
-                  type='text'
+                  type='email'
                   name='email'
                   placeholder='Your email address'
                   required
@@ -86,11 +88,11 @@ const Contact = () => {
                 placeholder='Your message'
                 required
               />
-              <button 
+              <input 
                 className='sendBtn mb-[30px] mx-auto lg:mx-0 self-start'
-                type='submit'>
-                Send
-              </button>
+                type='submit'
+                value="Send">
+              </input>
             </form>
           </div>
           {/* image */}
