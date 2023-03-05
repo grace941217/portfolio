@@ -61,7 +61,7 @@ const Skills = () => {
                   type='submit'>
                   <DiJavascript />
                 </button>
-                <p>JavaScript</p>
+                <p className='logoTag'>JavaScript</p>
               </div>
               <div>
               <button 
@@ -69,7 +69,7 @@ const Skills = () => {
                 type='submit'>
                 <DiPython />
               </button>
-              <p>Python</p>
+              <p className='logoTag'>Python</p>
               </div>
               <div>
                 
@@ -78,7 +78,7 @@ const Skills = () => {
                 type='submit'>
                 <DiRuby />
               </button>
-              <p>Ruby</p>
+              <p className='logoTag'>Ruby</p>
                   </div>
             <div>
               
@@ -87,7 +87,7 @@ const Skills = () => {
                 type='submit'>
                 <DiReact />
               </button>
-              <p>React.js</p>
+              <p className='logoTag'>React.js</p>
                   </div>
               <div>
 
@@ -96,7 +96,7 @@ const Skills = () => {
                 type='submit'>
                 <SiNextdotjs />
               </button>
-              <p>Next.js</p>
+              <p className='logoTag'>Next.js</p>
                   </div>
               <div>
 
@@ -105,7 +105,7 @@ const Skills = () => {
                 type='submit'>
                 <SiRubyonrails />
               </button>
-              <p>Rails</p>
+              <p className='logoTag'>Rails</p>
                   </div>
               <div>
 
@@ -114,7 +114,7 @@ const Skills = () => {
                 type='submit'>
                 <DiCss3 />
               </button>
-              <p>CSS</p>
+              <p className='logoTag'>CSS</p>
                   </div>
                 <div>
 
@@ -123,7 +123,7 @@ const Skills = () => {
                 type='submit'>
                 <DiHtml5 />
               </button>
-              <p>HTML</p>
+              <p className='logoTag'>HTML</p>
                   </div>
               <div>
 
@@ -132,7 +132,7 @@ const Skills = () => {
                 type='submit'>
                 <SiTailwindcss />
               </button>
-              <p>TailwindCSS</p>
+              <p className='logoTag'>TailwindCSS</p>
                   </div>
 
             </p>
