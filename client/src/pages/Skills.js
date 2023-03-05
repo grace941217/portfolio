@@ -34,13 +34,13 @@ const Skills = () => {
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-        className='container mx-auto h-full relative'
+        className='container  mx-auto h-full relative'
       >
         {/* text & img wrapper */}
         {/* <div className='flex  
         lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'> */}
 
-           <div className='flex flex-col lg:flex-row justify-center mt-20'>
+           <div className='flex flex-cols-2 lg:flex-row  justify-center mt-20'>
           {/* image */}
           {/* <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
             <img src={WomanImg} alt='' />
@@ -54,7 +54,7 @@ const Skills = () => {
             className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>Skills</h1>
-            <p className='flex lg:gap-2 sm:m-auto sm:gap-2 pt-10'>
+            <p className='grid lg:grid-cols-9 md:grid-cols-3 sm:grid-cols-3 lg:gap-2 lg:pt-10 sm:m-auto sm:gap-2 '>
               <div>
                 <button 
                   className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'

@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 // import cursor context
 import { CursorContext } from '../context/CursorContext';
+import Skills from './Skills';
 
 const About = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -79,6 +80,10 @@ const About = () => {
             <img src={WomanImg} alt='' />
           </motion.div>
         </div>
+        {/* <div>
+        <Skills />
+
+        </div> */}
       </div>
     </motion.section>
   );
