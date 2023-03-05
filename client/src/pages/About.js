@@ -29,7 +29,7 @@ const About = () => {
         {/* <div className='flex  
         lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'> */}
 
-           <div className='flex flex-col lg:flex-row justify-center'>
+           <div className='flex flex-col lg:flex-row justify-center mt-20'>
           {/* image */}
           {/* <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
             <img src={WomanImg} alt='' />

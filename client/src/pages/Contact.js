@@ -42,7 +42,7 @@ const Contact = () => {
       transition={transition1}
       className='section bg-white'
     >
-      <div className='container mx-auto h-full'>
+      <div className='container mx-auto h-full '>
         <div className='flex flex-col lg:flex-row h-full items-center justify-start pt-36 gap-x-8 text-center lg:text-left'>
           {/* bg */}
           <motion.div
@@ -88,11 +88,11 @@ const Contact = () => {
                 placeholder='Your message'
                 required
               />
-              <input 
+              <button 
                 className='sendBtn mb-[30px] mx-auto lg:mx-0 self-start'
-                type='submit'
-                value="Send">
-              </input>
+                type='submit'>
+                Send
+              </button>
             </form>
           </div>
           {/* image */}

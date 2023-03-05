@@ -29,7 +29,7 @@ const Skills = () => {
         {/* <div className='flex  
         lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'> */}
 
-           <div className='flex flex-col lg:flex-row justify-center'>
+           <div className='flex flex-col lg:flex-row justify-center mt-20'>
           {/* image */}
           {/* <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
             <img src={WomanImg} alt='' />
@@ -42,19 +42,18 @@ const Skills = () => {
             transition={transition1}
             className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
-            <h1 className='h1'>About me</h1>
+            <h1 className='h1'>Skills</h1>
             <p className='mb-12 max-w-sm'>
-            New adventures are always exciting. 
-            <br></br>
-            I'm thrilled as I am making a career transition to grow as a developer and also as a person. 
-            <br></br>
-            I am a fast learner with strong skills in active listening, creativity and persistence.
-            <br></br>
-            A background in biology as a nursing major and hospitality in the food industry.
-              {/* <b> Exercitationem, veritatis.</b>  */}
-              <br />
-              <br />
-              I work through positive collaborations and value efficiency.  I look forward to future opportunities to work with inspiring people in creating innovative products.
+              <button 
+                className='sendBtn mb-[30px] mx-auto lg:mx-0 self-start'
+                type='submit'>
+                Send
+              </button>
+              <button 
+                className='sendBtn mb-[30px] mx-auto lg:mx-0 self-start'
+                type='submit'>
+                Send
+              </button>
             </p>
             {/* <Link to={'/projects'} className='btn'>
               View my work

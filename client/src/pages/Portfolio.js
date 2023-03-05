@@ -23,9 +23,9 @@ const Portfolio = () => {
       transition={transition1}
       className='section'
     >
-      <div className='container mx-auto h-full relative'>
+      <div className='container mx-auto  relative'>
         {/* <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'> */}
-        <div className='flex flex-col lg:flex-row justify-center'>
+        <div className='flex flex-col lg:flex-row justify-center mt-10'>
           {/* text */}
           <motion.div
             onMouseEnter={mouseEnterHandler}
@@ -35,10 +35,10 @@ const Portfolio = () => {
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
             // className='flex flex-col lg:items-start'
-            className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
+            className='flex-1 pt-36 pb-14 pt-0 w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>Projects</h1>
-            <p className='mb-12 max-w-sm'>
+            <p className='mb-5 sm:mb-0'>
               {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               <b> Exercitationem, veritatis.</b> Veritatis illum aut,
               reprehenderit sed dolorem dolore. */}
@@ -55,7 +55,7 @@ const Portfolio = () => {
           <div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className='grid grid-cols-2 lg:gap-2'
+            className='grid grid-cols-2 lg:gap-2 sm:m-auto sm:gap-2'
           >
             {/* image */}
             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
@@ -79,7 +79,7 @@ const Portfolio = () => {
                 alt=''
               />
             </div>
-            <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
+            <div className='max-w-[250px] lg:max-w-[320px]  lg:h-[220px] bg-accent overflow-hidden'>
               <img
                 className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Image4}
