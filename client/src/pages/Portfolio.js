@@ -23,9 +23,9 @@ const Portfolio = () => {
       transition={transition1}
       className='section'
     >
-      <div className='container mx-auto  relative'>
+      <div className='container mx-auto  h-full'>
         {/* <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'> */}
-        <div className='flex flex-col lg:flex-row justify-center mt-10'>
+        <div className='flex flex-col lg:flex-row h-full justify-center mt-30'>
           {/* text */}
           <motion.div
             onMouseEnter={mouseEnterHandler}
@@ -35,10 +35,10 @@ const Portfolio = () => {
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
             // className='flex flex-col lg:items-start'
-            className='flex-1 pt-36 pb-14 pt-0 w-auto z-10 flex flex-col justify-center items-center lg:items-start'
+            className='flex-1 pt-20 pb-10 pt-0 w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>Projects</h1>
-            <p className='mb-5 sm:mb-0'>
+            <p className='mb-5 sm:mb-10'>
               {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               <b> Exercitationem, veritatis.</b> Veritatis illum aut,
               reprehenderit sed dolorem dolore. */}

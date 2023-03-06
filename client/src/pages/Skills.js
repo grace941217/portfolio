@@ -31,16 +31,17 @@ const Skills = () => {
       transition={transition1}
       className='section'
     >
+      
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
         className='container  mx-auto h-full relative'
       >
         {/* text & img wrapper */}
-        {/* <div className='flex  
-        lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'> */}
+        <div className='flex  
+        lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'>
 
-           <div className='flex flex-cols-2 lg:flex-row  justify-center mt-20'>
+           <div className='flex-1 flex-cols-2 lg:flex-row  justify-center lg:mt-20 mt-100px pt-100px'>
           {/* image */}
           {/* <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
             <img src={WomanImg} alt='' />
@@ -51,7 +52,7 @@ const Skills = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
-            className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
+            className='container flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start relative'
           >
             <h1 className='h1'>Skills</h1>
             <p className='grid lg:grid-cols-9 md:grid-cols-3 sm:grid-cols-3 lg:gap-2 lg:pt-10 sm:m-auto sm:gap-2 '>
@@ -154,6 +155,7 @@ const Skills = () => {
             <img src={WomanImg} alt='' />
           </motion.div> */}
         </div>
+      </div>
       </div>
     </motion.section>
   );
