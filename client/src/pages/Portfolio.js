@@ -12,6 +12,7 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 // import context
 import { CursorContext } from '../context/CursorContext';
+import './portfolio.css';
 
 const Portfolio = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -58,14 +59,73 @@ const Portfolio = () => {
             className='grid grid-cols-2 lg:gap-2 sm:m-auto sm:gap-2'
           >
             {/* image */}
-            <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
+            {/* <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'> */}
+            <div className='container portfolio__container'>
+              <article className='portfolio__item'>
+                <div className='portfolio__item-image'>
               <img
                 className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Image1}
                 alt=''
-              />
+                />
+                </div>
+                <h3>Hello World</h3>
+                <div className='portfolio__item-cta'>
+                <a href="" className='portBtn' target='_blank'>Github</a>
+                <a href="" className='portBtn' target='_blank'>Live Demo</a>
+                </div>
+                </article>
             </div>
-            <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
+            <div className='container portfolio__container'>
+              <article className='portfolio__item'>
+                <div className='portfolio__item-image'>
+              <img
+                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                src={Image2}
+                alt=''
+                />
+                </div>
+                <h3>NASA Playground</h3>
+                <div className='portfolio__item-cta'>
+                <a href="" className='portBtn' target='_blank'>Github</a>
+                <a href="" className='portBtn' target='_blank'>Live Demo</a>
+                </div>
+                </article>
+            </div>
+            <div className='container portfolio__container'>
+              <article className='portfolio__item'>
+                <div className='portfolio__item-image'>
+              <img
+                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                src={Image3}
+                alt=''
+                />
+                </div>
+                <h3>Flatiron Books</h3>
+                <div className='portfolio__item-cta'>
+                <a href="" className='portBtn' target='_blank'>Github</a>
+                <a href="" className='portBtn' target='_blank'>Live Demo</a>
+                </div>
+                </article>
+            </div>
+            <div className='container portfolio__container'>
+              <article className='portfolio__item'>
+                <div className='portfolio__item-image'>
+              <img
+                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                src={Image4}
+                alt=''
+                />
+                </div>
+                {/* <h3>Hello World</h3>
+                <div className='portfolio__item-cta'>
+                <a href="" className='portBtn' target='_blank'>Github</a>
+                <a href="" className='portBtn' target='_blank'>Live Demo</a>
+                </div> */}
+                </article>
+            </div>
+
+            {/* <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
               <img
                 className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Image2}
@@ -85,7 +145,7 @@ const Portfolio = () => {
                 src={Image4}
                 alt=''
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

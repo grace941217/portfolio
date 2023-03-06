@@ -27,4 +27,5 @@
   .logoTag {
     @apply py-[10px] px-[15px] h-[30px] mt-[5px] mb-[20px] flex items-center justify-center text-base uppercase font-secondary font-bold bg-primary text-white text-[10px];
   }
+  
 }
