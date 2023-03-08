@@ -24,7 +24,7 @@ const Socials = () => {
       onMouseLeave={mouseLeaveHandler}
       className=' xl:flex mr-20 px-10'
     >
-      <ul className='flex gap-x-6 text-[25px]'>
+      <ul className='flex lg:gap-x-6 lg:text-[25px] gap-x-3 text-[17px]'>
       <li>
         <a href='https://www.linkedin.com/in/grace-kim1217/' target='_blank'>
           <ImLinkedin />
