@@ -31,7 +31,6 @@ const Skills = () => {
       transition={transition1}
       className='section'
     >
-      
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
