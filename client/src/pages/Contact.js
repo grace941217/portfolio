@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from 'react';
 // import images
-// import WomanImg from '../img/contact/plant.jpg';
+import WomanImg from '../img/about/dan.JPG';
 // import motion
 import { motion } from 'framer-motion';
 // import transition
@@ -103,9 +103,9 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={{ transition: transition1, duration: 1.5 }}
-            className='lg:flex-1'
+            className=' lg:flex-1'
           >
-            {/* <img src={WomanImg} alt='' /> */}
+            <img src={WomanImg} alt='' className='md:mt-[40px] md:w-[30rem]'/>
           </motion.div>
         </div>
       </div>

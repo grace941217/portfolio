@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import WomanImg from '../img/about/me.png';
+import WomanImg from '../img/about/moma.JPG';
 // import link
 import { Link } from 'react-router-dom';
 // import motion

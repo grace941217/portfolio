@@ -75,7 +75,7 @@ const Portfolio = () => {
                 <h3 className="font-bold">Hello World</h3>
                 <div className='portfolio__item-cta'>
                 <a href="https://github.com/grace941217/Capstone-Project" className='portBtn' target='_blank'>Github</a>
-                <a href="" className='portBtn' target='_blank'>Live Demo</a>
+                {/* <a href="" className='portBtn' target='_blank'>Live Demo</a> */}
                 </div>
                 </article>
 
@@ -89,8 +89,8 @@ const Portfolio = () => {
                 </div>
                 <h3 className="font-bold">NASA Playground</h3>
                 <div className='portfolio__item-cta'>
-                <a href="" className='portBtn' target='_blank'>Github</a>
-                <a href="" className='portBtn' target='_blank'>Live Demo</a>
+                <a href="https://github.com/grace941217/Project-2" className='portBtn' target='_blank'>Github</a>
+                {/* <a href="" className='portBtn' target='_blank'>Live Demo</a> */}
                 </div>
                 </article>
 
@@ -105,8 +105,8 @@ const Portfolio = () => {
                 </div>
                 <h3 className="font-bold">Flatiron Books</h3>
                 <div className='portfolio__item-cta'>
-                <a href="" className='portBtn' target='_blank'>Github</a>
-                <a href="" className='portBtn' target='_blank'>Live Demo</a>
+                <a href="https://github.com/grace941217/Phase-4-Project" className='portBtn' target='_blank'>Github</a>
+                {/* <a href="" className='portBtn' target='_blank'>Live Demo</a> */}
                 </div>
                 </article>
 
