@@ -50,7 +50,7 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={transition1}
-            className='w-screen lg:flex bg-[#ebe7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'
+            className='lg:w-screen lg:flex bg-[#ebe7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'
           ></motion.div>
           {/* text & form */}
           <div
@@ -65,7 +65,7 @@ const Contact = () => {
               className='flex flex-col gap-y-4'
               ref={form} 
               onSubmit={sendEmail}>
-              <div className='flex gap-x-10'>
+              <div className='flex gap-x-10 '>
                 <input
                   className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                   type='text'
