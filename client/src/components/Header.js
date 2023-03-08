@@ -22,7 +22,7 @@ const Header = () => {
           className='max-w-[200px]'
         >
           {/* <img src={Logo} alt='' /> */}
-          <button className='logo'>GRACE KIM</button>
+          <button className='logo'>GRACE KIM ☻</button>
         </Link>
         {/* nav - initially hidden - show on desktop mode */}
         <nav

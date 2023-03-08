@@ -9,8 +9,9 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 // cursor context
 import { CursorContext } from '../context/CursorContext';
-// import {TypeAnimation} from 'react-type-animation';
-import {TypeAnimation} from 'react-type-animation';
+// import { TypeAnimation } from 'react-type-animation';
+import Typed from 'react-typed';
+
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact'
@@ -40,24 +41,24 @@ const Home = () => {
             className='w-full pt-40 pb-40 lg:pt-100 lg:pb-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>
-              Software Engineer <br/>&
+              Software Engineer
+               <br/>
               </h1>
-              <div>
-              {/* <h1 className='mr-4'>& </h1> */}
-              {/* <TypeAnimation 
-                sequence={[
-                  'lover',
-                  2000,
-                  'Christian',
-                  2000,
-                  'listener'
+              <h1 className='h1 mr-4'>
+                &   <Typed 
+                strings={[
+                  'adventurer',
+                  'foodie',
+                  'goal getter',
+                  // 'initiator'
                 ]}
-                speed={50}
-                // className=''
-                // wrapper='span'
-                repeat={Infinity}
-         /> */}
-         </div>
+                typeSpeed={40}
+                backSpeed={50}
+                loop 
+                className='h1'>
+                </Typed>
+
+         </h1>
             <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>
               New York, New York
             </p>

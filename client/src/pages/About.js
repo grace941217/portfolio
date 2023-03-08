@@ -48,16 +48,19 @@ const About = () => {
             Ready and excited to embark on a new journey!💡 
             {/* New adventures are always exciting.  */}
             <br></br>
-            I'm thrilled as I am making a transition to grow as a developer and also as a person. 
+            I'm thrilled and grateful as I am making this career transition to grow as a developer. 
             <br></br>
+            
             <br></br>
-            I am a fast learner with strong skills in active listening, creativity and persistence.
+            I am a fast learner with passion-strong skills in active listening, creativity and persistence.
             <br />
-            My background is in biology as a nursing major. And I gained hospitality experiences in the food industry while studying.
+            My background is in biology as a nursing major and I gained hospitality experiences in the food industry while studying in college.
               {/* <b> Exercitationem, veritatis.</b>  */}
               <br />
               <br />
-              I like to work through positive collaborations and value efficiency.  Looking forward to future opportunities to work with inspiring people to create innovative products.
+              I like to work through positive collaborations and I also value efficiency.  
+              <br/>
+              Looking forward to future opportunities to work with inspiring people to create innovative products.
               <br />
               <br />
               Let the journey begin!✨

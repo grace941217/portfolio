@@ -39,7 +39,7 @@ const Contact = () => {
       initial={{ opacity: 0, y: '100%' }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: '100%' }}
-      transition={transition1}
+      // transition={transition1}
       className='section bg-white'
     >
       <div className='container mx-auto h-full '>
@@ -49,7 +49,7 @@ const Contact = () => {
             initial={{ opacity: 0, y: '100%' }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
-            transition={transition1}
+            // transition={transition1}
             className='lg:w-screen lg:flex bg-[#ebe7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'
           ></motion.div>
           {/* text & form */}
@@ -59,7 +59,7 @@ const Contact = () => {
             className='lg:flex-1 lg:pt-32 lg:ml-20'
           >
             <h1 className='h1'>Contact me</h1>
-            <p className='mb-12 text-[18px]'>Please feel free to reach out to me!</p>
+            <p className='mb-12 text-[18px]'>Please feel free to shoot me a message!</p>
             {/* form */}
             <form 
               className='flex flex-col gap-y-4'
