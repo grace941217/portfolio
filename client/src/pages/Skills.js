@@ -54,7 +54,7 @@ const Skills = () => {
             className='container flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start relative'
           >
             <h1 className='h1'>Skills</h1>
-            <p className='grid lg:grid-cols-9 md:grid-cols-3 sm:grid-cols-3 lg:gap-2 lg:pt-10 sm:m-auto sm:gap-2 '>
+            <p className='grid lg:grid-cols-9 md:grid-cols-3 sm:grid-cols-3 lg:gap-2 lg:pt-10 sm:m-auto sm:gap-2 justify-center'>
               <div>
                 <button 
                   className='logoBtn mb-[30px] mx-auto lg:mx-0 self-start'

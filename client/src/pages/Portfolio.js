@@ -63,7 +63,7 @@ const Portfolio = () => {
           > */}
             {/* image */}
             {/* <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'> */}
-            <div className=' portfolio__container '>
+            <div className='grid lg:grid-cols-3 lg:gap-8 md:grid-cols-2 sm:grid-cols-2 sm:gap-2 m-auto justify-center'>
               <article className='portfolio__item '>
                 <div className='portfolio__item-image'>
               <img

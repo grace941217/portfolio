@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+
 }
 
 .portfolio__item {
@@ -39,6 +40,6 @@
     border: 2px solid;
     border-radius: 0.4rem;
     padding: 3px;
-    background-color: rgb(227, 226, 226);
+    background-color: transparent;
     /* color: white; */
 }
