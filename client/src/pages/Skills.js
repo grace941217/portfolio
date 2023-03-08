@@ -38,7 +38,7 @@ const Skills = () => {
       >
         {/* text & img wrapper */}
         <div className='flex  
-        lg:flex-row h-full items-center justify-center gap-x-24 text-center  lg:pt-16'>
+        lg:flex-row h-full items-center justify-center gap-x-24 text-center  lg:pt-16 lg:pb-40'>
 
            <div className='flex-1 flex-cols-2 lg:flex-row  justify-center lg:mt-20 mt-100px pt-100px'>
           {/* image */}

@@ -38,7 +38,7 @@ const Portfolio = () => {
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
             // className='flex flex-col lg:items-start'
-            className='container flex-1 pt-36 lg:pb-10 pb-0 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start relative'
+            className='container flex-1 pt-40 lg:pb-10 pb-0 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start relative'
           >
             <h1 className='h1'>Projects</h1>
             {/* <p className='portfolio__container'> */}

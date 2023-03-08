@@ -12,9 +12,9 @@
   .logo {
     @apply text-[35px] w-[300px] font-primary font-bold capitalize leading-[120%] tracking-[-0.05em] text-grey px-3 py-1 rounded-2xl;
   }
-  /* .section {
-    @apply w-screen;
-  } */
+  .section {
+    @apply ml-[1rem];
+  }
   .btn {
     @apply py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-primary text-white;
   }
