@@ -81,8 +81,8 @@ const Contact = () => {
                   required
                 />
               </div>
-              <input
-                className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
+              <textarea
+                className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879] mt-5'
                 type='text'
                 name='message'
                 placeholder='Your message'
