@@ -56,7 +56,7 @@ const Contact = () => {
           <div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className='lg:flex-1 lg:pt-32 px-4'
+            className='lg:flex-1 lg:pt-32 px-20'
           >
             <h1 className='h1'>Contact me</h1>
             <p className='mb-12 text-[18px]'>Please feel free to reach out to me!</p>
