@@ -72,7 +72,7 @@ const Portfolio = () => {
                 alt=''
                 />
                 </div>
-                <h3>Hello World</h3>
+                <h3 className="font-bold">Hello World</h3>
                 <div className='portfolio__item-cta'>
                 <a href="https://github.com/grace941217/Capstone-Project" className='portBtn' target='_blank'>Github</a>
                 <a href="" className='portBtn' target='_blank'>Live Demo</a>
@@ -87,7 +87,7 @@ const Portfolio = () => {
                 alt=''
                 />
                 </div>
-                <h3>NASA Playground</h3>
+                <h3 className="font-bold">NASA Playground</h3>
                 <div className='portfolio__item-cta'>
                 <a href="" className='portBtn' target='_blank'>Github</a>
                 <a href="" className='portBtn' target='_blank'>Live Demo</a>
@@ -103,7 +103,7 @@ const Portfolio = () => {
                 alt=''
                 />
                 </div>
-                <h3>Flatiron Books</h3>
+                <h3 className="font-bold">Flatiron Books</h3>
                 <div className='portfolio__item-cta'>
                 <a href="" className='portBtn' target='_blank'>Github</a>
                 <a href="" className='portBtn' target='_blank'>Live Demo</a>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                 alt=''
                 />
                 </div>
-                {/* <h3>Hello World</h3>
+                {/* <h3 className="font-bold">Hello World</h3>
                 <div className='portfolio__item-cta'>
                 <a href="" className='portBtn' target='_blank'>Github</a>
                 <a href="" className='portBtn' target='_blank'>Live Demo</a>
