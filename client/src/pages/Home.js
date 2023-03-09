@@ -64,6 +64,8 @@ const Home = () => {
             <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>
               New York, New York
             </p>
+          </motion.div>
+
             <div>
               <About/>
             </div>
@@ -82,7 +84,6 @@ const Home = () => {
             {/* <Link to={'/contact'} className='btn mb-[20px]'>
               Contact me
             </Link> */}
-          </motion.div>
           {/* image */}
           {/* <div className='flex justify-end max-h-96 lg:max-h-max'>
             <motion.div

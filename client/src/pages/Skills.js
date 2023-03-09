@@ -25,10 +25,10 @@ const Skills = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
     <motion.section
-      initial={{ opacity: 0, y: '100%' }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: '100%' }}
-      transition={transition1}
+      // initial={{ opacity: 0, y: '100%' }}
+      // animate={{ opacity: 1, y: 0 }}
+      // exit={{ opacity: 0, y: '100%' }}
+      // transition={transition1}
       className='section w-full'
     >
       <div
@@ -50,7 +50,7 @@ const Skills = () => {
             initial={{ opacity: 0, y: '-80%' }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-80%' }}
-            transition={transition1}
+            // transition={transition1}
             className='container flex-1 pt-36 pb-14 lg:pt-0  z-10 flex flex-col justify-center items-center lg:items-start relative'
           >
             <h1 className='h1'>Skills</h1>

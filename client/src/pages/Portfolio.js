@@ -21,7 +21,7 @@ const Portfolio = () => {
       initial={{ opacity: 0, y: '100%' }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: '100%' }}
-      transition={transition1}
+      // transition={transition1}
       className='section'
     >
       <div className='container mx-auto  h-full relative'>
