@@ -48,9 +48,11 @@ const Home = () => {
                 &   <Typed 
                 strings={[
                   'adventurer',
+                  'go-getter',
                   'foodie',
-                  'goal getter',
-                  // 'initiator'
+                  'challenge seeker',
+                  'initiator'
+                  
                 ]}
                 typeSpeed={40}
                 backSpeed={50}

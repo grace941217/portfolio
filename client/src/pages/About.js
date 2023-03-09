@@ -48,7 +48,7 @@ const About = () => {
             Ready and excited to embark on a new journey!💡 
             {/* New adventures are always exciting.  */}
             <br></br>
-            I'm thrilled and grateful as I am making this career transition to grow as a developer. 
+            I'm thrilled and grateful as I am making a career transition to grow as a developer. 
             <br></br>
             
             <br></br>
